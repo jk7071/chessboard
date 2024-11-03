@@ -1,0 +1,25 @@
+/* Styling the chess board */
+.chess-board {
+    width: 320px; /* Set the width of the board */
+    height: 320px; /* Set the height of the board */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(8, 1fr); /* Create 8 equal columns */
+    grid-template-rows: repeat(8, 1fr); /* Create 8 equal rows */
+    border: 2px solid black; /* Add a border around the chessboard */
+}
+
+/* Styling individual squares */
+.chess-board div {
+    width: 100%; /* Each square takes up full width of its grid cell */
+    height: 100%; /* Each square takes up full height of its grid cell */
+}
+
+/* Black squares */
+.black {
+    background-color: black; /* Set the background color for black squares */
+}
+
+/* White squares */
+.white {
+    background-color: white; /* Set the background color for white squares */
+}
